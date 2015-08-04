@@ -25,7 +25,7 @@ Once the project moves into development, the press release can be used as a touc
   
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
-  Middle school, high school, and university students, and people working in the professional marketplace (e.g. finance, tech, medicine) who have an extraordinary amount of information they need to understand, absorb and remember, and then be able to discuss and apply these ideas at a later date.
+  Middle school, high school, and university students, and people working in the professional marketplace (e.g. finance, tech, medicine) who have an extraordinary amount of information they need to understand, absorb and remember - and discuss in competant manner.
 
 
 ## Summary ##
@@ -34,7 +34,7 @@ Once the project moves into development, the press release can be used as a touc
 
   Imagine you're in a lecture or reading the newspaper and you find a word or concept you don't know. If you want to deeply understand the overall text, you have two options: You can quickly lookup the word in a dictionary or infer its meaning from context.
 
-  If you infer the word's meaning from context, you often miss the complete meaning of the word, and your overall comprehension suffers. On the other hand, If you lookup the word in a dictionary, it often takes an anoyingly long time to find the right definition and, again, overall comprehension suffers. Despite each of these strategies' shortcomings, niether get at the heart of the issue.
+  If you infer the word's meaning from context, you often miss the complete meaning of the word, and your overall comprehension suffers. On the other hand, If you lookup the word in a dictionary, it often takes an anoyingly long time to find the right definition and, again, overall comprehension suffers. Despite each of these strategies' shortcomings, neither get at the heart of the issue.
 
   The problem is that when you infer from context or reference a dictionary, you gain an incomplete and temporary understanding of the word. But, you run the risk of not seeing the word again for a few weeks or months and by that time you have already forgotten it and need to look it up again.
 
@@ -42,7 +42,7 @@ Once the project moves into development, the press release can be used as a touc
 
   But what if there were an app that could help?
 
-  You whip out your phone or open a new tab in your browser and go to "an app" (WordWallet) to lookup the meaning of the unfamiliar word. Instead of reading an esoteric definition, you watch and listen to a brief, snapchat-like video that introduces the word.
+  You whip out your phone or open a new tab in your browser and go to "an app" (WordWallet) to lookup the meaning of the unfamiliar word or concept. Instead of reading an esoteric definition, you watch and listen to a brief, snapchat-like video that introduces the word.
 
   Later that night or the next morning, you spend 5-10 minutes re-watching brief, entertaining snapchat-like videos that explain the word and how to use it, followed by exercises that allow you to play with and get a better understanding of the word.
 

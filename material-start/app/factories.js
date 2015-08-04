@@ -2,6 +2,7 @@ angular.module('starterApp')
   .factory('user', function($state, $firebaseAuth, $firebaseObject, words) {
     var user = {};
     user.profile;
+    user.WordWallet = [];
     user.currentWord = words.currentWord;
     var ref = new Firebase("https://wordwallet.firebaseio.com/");
     user.addUser = function(email, password,cb) {
@@ -103,6 +104,14 @@ angular.module('starterApp')
       );
     };
     return showSimpleToast;
+  })
+  .factory('card', function() {
+    var obj = {};
+    // communicate with api to gather cards
+    // store information related to cards
+
+    // house methods to handle interactions with cards
+    return obj;
   });
 
 

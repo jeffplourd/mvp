@@ -19,6 +19,11 @@ angular
           url: "/study",
           templateUrl: "views/study.html",
           controller: "studyCtrl"
+        })
+        .state('explore', {
+          url: "/explore",
+          templateUrl: "views/explore.html",
+          controller: "exploreCtrl"
         });
 
       $mdIconProvider

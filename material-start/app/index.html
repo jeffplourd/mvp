@@ -14,18 +14,17 @@
   </head>
 
   <body ng-app="starterApp" layout="column">
-    <md-toolbar>
+    <md-toolbar ng-controller="searchCtrl">
       <div class="md-toolbar-tools">
-        <md-button class="md-icon-button" aria-label="Settings">
+        <md-autocomplete flex md-selected-item="selectedItem" md-search-text="searchText" md-items="item in getMatches(searchText)" md-item-text="item.display">
+          <span md-highlight-text="searchText">{{item.display}}</span>
+        </md-autocomplete>
+        <!-- <span flex></span> -->
+        <md-button class="md-icon-button" ui-sref="explore" aria-label="Settings">
           <md-icon md-svg-icon="/assets/svg/menu.svg"></md-icon>
         </md-button>
-        <h2>
-          <span>WordWallet</span>
-        </h2>
-        <span flex></span>
-        <a ui-sref="signup">Signup</a> | 
-        <a ui-sref="study">Study</a> | 
-        <a ui-sref="add">Add</a>
+                <!-- <a ui-sref="signup">Signup</a> -->
+
       </div>
     </md-toolbar>
 

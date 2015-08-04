@@ -1,0 +1,20 @@
+<md-grid-list md-cols="3" md-cols-md="2" md-cols-sm="1" md-gutter="1em" md-row-height="4:3" layout-padding>
+  <md-grid-tile ng-repeat="word in wordList" ng-style="{'background': word.color}">
+    <div layout="column" layout-margin>
+      <div layout="row">
+        <h2 flex>{{word.name}}</h2>
+        <md-button ng-click="addToWordWallet(word)" class="md-icon-button" aria-label="Settings">
+          <md-icon md-svg-icon="/assets/svg/add_black.svg"></md-icon>
+        </md-button>
+        <md-button ng-click="removeFromExplorer(word, $index)" class="md-icon-button" aria-label="Settings">
+          <md-icon md-svg-icon="/assets/svg/clear_black.svg"></md-icon>
+        </md-button>
+      </div>
+      <!-- <img src="https://placehold.it/300x150"> -->
+      <iframe width="100%" height="80%" ng-src="{{word.url}}" frameborder="0" allowfullscreen></iframe>
+      <p>
+        Facete delenit argumentum cum at. Pro rebum nostrum contentiones ad. Mel exerci tritani maiorum at, mea te audire phaedrum, mel et nibh aliquam. Malis causae equidem vel eu. Noster melius vis ea, duis alterum oporteat ea sea. Per cu vide munere fierent
+      </p>
+    </div>
+  </md-grid-tile>
+</md-grid-list>

@@ -4,7 +4,7 @@ html, body {
   height:100%;
   margin: 0px auto;
   padding: 0px;
-  max-width: 600px;
+  /*max-width: 600px;*/
 }
 
 /* Toolbar area */

@@ -97,6 +97,22 @@ angular.module('starterApp')
     $scope.loginUser = function(email, password) {
       user.loginUser(email, password);
     }
+  })
+  .controller('searchCtrl', function($scope, $mdDialog, user, card) {
+    // house the logic for the search bar
+    $scope.selectedItem;
+    $scope.searchText;
+
+  })
+  .controller('exploreCtrl', function($scope, user, card, words) {
+    // house the logic for the exploration view
+    $scope.wordList = words.words;
+    $scope.removeFromExplorer = function(word, index) {
+      $scope.wordList.splice(index, 1);
+    };
+    $scope.addToWordWallet = function(word) {
+      user.WordWallet.push(word);
+    };
   });
 
 function exerciseCtrl($scope, $mdDialog, words) {
