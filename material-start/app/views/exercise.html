@@ -1,0 +1,32 @@
+<md-dialog aria-label="Mango (Fruit)">
+  <form>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2>{{currentWord.name}}</h2>
+      <span flex></span>
+      <md-button href="{{'http://en.wikipedia.org/wiki/' + currentWord.name}}" target="_blank"  show-md>
+        More on Wikipedia
+      </md-button>
+      <md-button class="md-icon-button" ng-click="answer('not applicable')">
+        <md-icon md-svg-src="assets/svg/white_add.svg" aria-label="Close dialog"></md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+  <md-content layout-margin>
+    <p>Which of the following is an example of someone showing <strong>gumption</strong>?: <span class="radioValue">{{ data.group1 }}</span> </p>
+        <md-radio-group ng-model="data.group1">
+          <md-radio-button value="one" class="md-primary">solving all the sodoku puzzles in the newspaper</md-radio-button>
+          <md-radio-button value="two"> looking at the answers in the back of the book to finish your math homework </md-radio-button>
+        </md-radio-group>
+  </md-content>
+  <div class="md-actions" layout="row">
+      <span flex></span>
+      <md-button ng-click="answer('not useful')" class="md-primary">
+       Hint
+      </md-button>
+      <md-button ng-click="answer('useful')" class="md-primary">
+        Check Answer
+      </md-button>
+    </div>
+  </form>
+</md-dialog>

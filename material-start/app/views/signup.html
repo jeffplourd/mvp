@@ -1,0 +1,15 @@
+<md-content layout-padding layout='row' layout-align="space-around center">
+    <div>
+        <md-input-container >
+         <md-icon md-svg-src="assets/svg/avatar-1.svg" class="email"></md-icon>
+         <input ng-model="user.email" type="text" placeholder="Email" ng-required="true">
+        </md-input-container>
+        <md-input-container >
+         <md-icon md-svg-src="assets/svg/avatar-1.svg" class="name"></md-icon>
+         <input ng-model="user.password" type="text" placeholder="Password" ng-required="true">
+        </md-input-container>
+        <md-button class="md-raised md-primary" ng-click="addUser(user.email, user.password)">Signup</md-button>
+        <md-button class="md-raised md-primary" ng-click="loginUser(user.email, user.password)">Login</md-button>
+    </div>
+     <!-- <md-button>Signin</md-button> -->
+</md-content>
